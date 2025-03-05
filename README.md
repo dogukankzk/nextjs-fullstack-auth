@@ -42,7 +42,7 @@ Includes **signup, login, email verification, password reset**, and **secure JWT
 git clone https://github.com/dogukankzk/nextjs-fullstack-auth.git
 cd nextjs-auth
 
-2️⃣ Install dependencies
+2️⃣ Install dependencies  
 npm install
 
 

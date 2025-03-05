@@ -1,9 +1,3 @@
-MODIFIER
-
-📜 Fichier README.md
-md
-Copier
-Modifier
 # 🔐 Next.js Authentication System with Reset Password
 
 🚀 A **full authentication system** built with **Next.js, MongoDB, and Tailwind CSS**.  
@@ -39,7 +33,7 @@ Includes **signup, login, email verification, password reset**, and **secure JWT
 ## 🏗️ **Setup & Installation**
 ### 1️⃣ Clone the repository  
 
-git clone https://github.com/dogukankzk/nextjs-fullstack-auth.git
+git clone https://github.com/dogukankzk/nextjs-fullstack-auth.git  
 cd nextjs-auth
 
 2️⃣ Install dependencies  
@@ -48,47 +42,47 @@ npm install
 
 3️⃣ Create a .env.local file and add:
 
-MONGO_URI=mongodb+srv://USERNAME:PASSWORD@cluster.mongodb.net/DATABASE_NAME
-TOKEN_SECRET=your-secret-key
-MAILTRAP_USER=your-mailtrap-username
-MAILTRAP_PASS=your-mailtrap-password
-DOMAIN=http://localhost:3000
+MONGO_URI=mongodb+srv://USERNAME:PASSWORD@cluster.mongodb.net/DATABASE_NAME  
+TOKEN_SECRET=your-secret-key  
+MAILTRAP_USER=your-mailtrap-username  
+MAILTRAP_PASS=your-mailtrap-password  
+DOMAIN=http://localhost:3000  
 
-Start the development server
+Start the development server  
 npm run dev
 
 
-🛠️ API Routes
-📌 Authentication
-🔹 POST /api/users/signup → Register a new user
-🔹 POST /api/users/login → Authenticate and return a JWT token
-🔹 POST /api/users/logout → Logout and clear the JWT
+🛠️ API Routes  
+📌 Authentication  
+🔹 POST /api/users/signup → Register a new user  
+🔹 POST /api/users/login → Authenticate and return a JWT token  
+🔹 POST /api/users/logout → Logout and clear the JWT  
 
-📌 Email Verification
-🔹 POST /api/users/verifyemail → Verifies email using a token
+📌 Email Verification  
+🔹 POST /api/users/verifyemail → Verifies email using a token  
 
-📌 Password Reset
-🔹 POST /api/users/forgotpassword → Sends a reset email
-🔹 POST /api/users/resetpassword → Resets password
+📌 Password Reset  
+🔹 POST /api/users/forgotpassword → Sends a reset email  
+🔹 POST /api/users/resetpassword → Resets password  
 
-📌 User Data
-🔹 GET /api/users/me → Fetch current user data
+📌 User Data  
+🔹 GET /api/users/me → Fetch current user data  
 
-🛡️ Security Features
-Passwords hashed with bcryptjs
-Tokens stored securely in HTTP-only cookies
-Protected Routes using Next.js middleware
-Environment variables for sensitive data
+🛡️ Security Features  
+Passwords hashed with bcryptjs  
+Tokens stored securely in HTTP-only cookies  
+Protected Routes using Next.js middleware  
+Environment variables for sensitive data  
 
 
-💡 Want to Contribute?
-Feel free to fork this repo and submit a pull request! 🚀
+💡 Want to Contribute?  
+Feel free to fork this repo and submit a pull request! 🚀  
 
-📞 Contact
-👤: Kazkondu Dogukan
-📧 Email: dogukan.kazkondu.dev@gmail.com
-🔗 GitHub: https://github.com/dogukankzk
+📞 Contact  
+👤 Kazkondu Dogukan  
+📧 Email: dogukan.kazkondu.dev@gmail.com  
+🔗 GitHub: https://github.com/dogukankzk  
 
-📜 License
-This project is MIT Licensed. Feel free to use it!
+📜 License  
+This project is MIT Licensed. Feel free to use it!  
 

@@ -48,21 +48,21 @@ MAILTRAP_USER=your-mailtrap-username
 MAILTRAP_PASS=your-mailtrap-password  
 DOMAIN=http://localhost:3000  
 
-Start the development server  
+### 4️⃣ Start the development server    
 npm run dev
 
 ---
 
 ## 🛠️ API Routes  
-### 📌 Authentication  
+ 📌 Authentication  
 🔹 POST /api/users/signup → Register a new user  
 🔹 POST /api/users/login → Authenticate and return a JWT token  
 🔹 POST /api/users/logout → Logout and clear the JWT  
 
-### 📌 Email Verification  
+ 📌 Email Verification   
 🔹 POST /api/users/verifyemail → Verifies email using a token  
 
-### 📌 Password Reset  
+📌 Password Reset  
 🔹 POST /api/users/forgotpassword → Sends a reset email  
 🔹 POST /api/users/resetpassword → Resets password  
 
@@ -82,10 +82,14 @@ Environment variables for sensitive data
 ## 💡 Want to Contribute?  
 Feel free to fork this repo and submit a pull request! 🚀  
 
+---
+
 ## 📞 Contact  
 👤 Kazkondu Dogukan  
 📧 Email: dogukan.kazkondu.dev@gmail.com  
 🔗 GitHub: https://github.com/dogukankzk  
+
+---
 
 ## 📜 License  
 This project is MIT Licensed. Feel free to use it!  

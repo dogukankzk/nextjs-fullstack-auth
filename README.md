@@ -54,15 +54,15 @@ npm run dev
 ---
 
 ## 🛠️ API Routes  
- 📌 Authentication  
+### 📌 Authentication  
 🔹 POST /api/users/signup → Register a new user  
 🔹 POST /api/users/login → Authenticate and return a JWT token  
 🔹 POST /api/users/logout → Logout and clear the JWT  
 
- 📌 Email Verification   
+### 📌 Email Verification   
 🔹 POST /api/users/verifyemail → Verifies email using a token  
 
-📌 Password Reset  
+### 📌 Password Reset  
 🔹 POST /api/users/forgotpassword → Sends a reset email  
 🔹 POST /api/users/resetpassword → Resets password  
 

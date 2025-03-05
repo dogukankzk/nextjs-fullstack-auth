@@ -36,11 +36,11 @@ Includes **signup, login, email verification, password reset**, and **secure JWT
 git clone https://github.com/dogukankzk/nextjs-fullstack-auth.git  
 cd nextjs-auth
 
-2️⃣ Install dependencies  
+### 2️⃣ Install dependencies  
 npm install
 
 
-3️⃣ Create a .env.local file and add:
+### 3️⃣ Create a .env.local file and add:
 
 MONGO_URI=mongodb+srv://USERNAME:PASSWORD@cluster.mongodb.net/DATABASE_NAME  
 TOKEN_SECRET=your-secret-key  
@@ -51,38 +51,42 @@ DOMAIN=http://localhost:3000
 Start the development server  
 npm run dev
 
+---
 
-🛠️ API Routes  
-📌 Authentication  
+## 🛠️ API Routes  
+### 📌 Authentication  
 🔹 POST /api/users/signup → Register a new user  
 🔹 POST /api/users/login → Authenticate and return a JWT token  
 🔹 POST /api/users/logout → Logout and clear the JWT  
 
-📌 Email Verification  
+### 📌 Email Verification  
 🔹 POST /api/users/verifyemail → Verifies email using a token  
 
-📌 Password Reset  
+### 📌 Password Reset  
 🔹 POST /api/users/forgotpassword → Sends a reset email  
 🔹 POST /api/users/resetpassword → Resets password  
 
-📌 User Data  
+### 📌 User Data  
 🔹 GET /api/users/me → Fetch current user data  
 
-🛡️ Security Features  
+---
+
+## 🛡️ Security Features  
 Passwords hashed with bcryptjs  
 Tokens stored securely in HTTP-only cookies  
 Protected Routes using Next.js middleware  
 Environment variables for sensitive data  
 
+---
 
-💡 Want to Contribute?  
+## 💡 Want to Contribute?  
 Feel free to fork this repo and submit a pull request! 🚀  
 
-📞 Contact  
+## 📞 Contact  
 👤 Kazkondu Dogukan  
 📧 Email: dogukan.kazkondu.dev@gmail.com  
 🔗 GitHub: https://github.com/dogukankzk  
 
-📜 License  
+## 📜 License  
 This project is MIT Licensed. Feel free to use it!  
 
